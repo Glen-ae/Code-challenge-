@@ -2,7 +2,7 @@
 
 ## PROJECT DESCRIPTION
 
--This project us generated to help a certain school to be able to calculate and assign grades to the students of the particular school.
+- This project us generated to help a certain school to be able to calculate and assign grades to the students of the particular school.
 
 ## PROJECT SETUP
  This project has used several JavaScript functions in order for it to be implemented
@@ -42,4 +42,46 @@ function grades(marks)
     alert(`Your grade is; ${grading(marks)}`);
     
     The alert statement responds to which grade the student has received
+
+
+
+## SPEED DETECTOR PROJECT
+- The purpose of this project is to check the driver's discipline on the roads.There is a seed limit that is set to monitor the speed in which the drivers are travelling with.The maximum speed limit is 80km/hr and if the driver passes the speed limit,he/she is given one demerit point.If the demerit points reach 12, the driver's license is suspended and also it will read "LICENSE SUSPENDED"
+
+## PROMPT USER 
+`let speed = prompt("Input speed of a car(km/hr): ", "");`
+`if (speed !== null && speed >= 0)`
+{
+This variable helps us to Identify the speed of the car in which the car is travelling with.
+
+## CONDITIONAL STATEMENTS
+`let driverLicenseInfo;
+    if(speed < 70)
+    {
+        driverLicenseInfo = "Ok"
+    }
+    else
+    {
+        let demeritPoint = Math.ceil((speed - 70)/5);
+        if (demeritPoint < 12)
+        {
+            driverLicenseInfo = `Demerit Points: ${demeritPoint}`
+        }
+        else
+        {
+            driverLicenseInfo = `Demerit Points: ${demeritPoint}, LICENSE SUSPENDED!`
+        }
+    }`
+
+    These conditional statements help us to identify of the driver has broken the rules or has adhered to the speed limit hence preventing his driver's license from being suspended or if he hasn't adhered to the rules his license will be terminated
+
+## ALERT STATEMENTS
+ `alert(driverLicenseInfo)
+}
+else
+{
+    alert('Wrong Input')
+}`
+
+This is to alert on whether the input is wrong or right
      
