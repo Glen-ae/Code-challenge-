@@ -11,7 +11,7 @@
   `let marks = prompt("Present your marks here", "")`
   `if(marks !== null && marks >= 0 && marks <= 100)`
    
-   This variable helps on the assigning of values which range between 0 to 100 and helps them know their points
+-  This variable helps on the assigning of values which range between 0 to 100 and helps them know their points
 ## CONDITIONAL STATEMENTS
 function grades(marks)
     `{
@@ -36,12 +36,12 @@ function grades(marks)
             grading = "E"
         }
         return grade`
-   These conditional statements are what helps the points to be graded accoording to the points the students have archieved indiviudally in the school
+-  These conditional statements are what helps the points to be graded accoording to the points the students have archieved indiviudally in the school
 ## ALERT STATEMENTS
     }
     alert(`Your grade is; ${grading(marks)}`);
     
-    The alert statement responds to which grade the student has received
+- The alert statement responds to which grade the student has received
 
 
 
@@ -52,7 +52,7 @@ function grades(marks)
 `let speed = prompt("Input speed of a car(km/hr): ", "");`
 `if (speed !== null && speed >= 0)`
 {
-This variable helps us to Identify the speed of the car in which the car is travelling with.
+- This variable helps us to Identify the speed of the car in which the car is travelling with.
 
 ## CONDITIONAL STATEMENTS
 `let driverLicenseInfo;
@@ -73,7 +73,7 @@ This variable helps us to Identify the speed of the car in which the car is trav
         }
     }`
 
-    These conditional statements help us to identify of the driver has broken the rules or has adhered to the speed limit hence preventing his driver's license from being suspended or if he hasn't adhered to the rules his license will be terminated
+- These conditional statements help us to identify of the driver has broken the rules or has adhered to the speed limit hence preventing his driver's license   from being suspended or if he hasn't adhered to the rules his license will be terminated
 
 ## ALERT STATEMENTS
  `alert(driverLicenseInfo)
@@ -83,5 +83,5 @@ else
     alert('Wrong Input')
 }`
 
-This is to alert on whether the input is wrong or right
+- This is to alert on whether the input is wrong or right
      
