@@ -8,13 +8,13 @@
  This project has used several JavaScript functions in order for it to be implemented
 
  ## PROMPT USER
-  (`let marks = prompt("Present your marks here", "")`
-  `if(marks !== null && marks >= 0 && marks <= 100)
+  `let marks = prompt("Present your marks here", "")`
+  `if(marks !== null && marks >= 0 && marks <= 100)`
    
    This variable helps on the assigning of values which range between 0 to 100 and helps them know their points
 ## CONDITIONAL STATEMENTS
 function grades(marks)
-    {
+    `{
         let grade;
         if (marks > 79)
         {
@@ -35,7 +35,7 @@ function grades(marks)
         else{
             grading = "E"
         }
-        return grade
+        return grade`
    These conditional statements are what helps the points to be graded accoording to the points the students have archieved indiviudally in the school
 ## ALERT STATEMENTS
     }
