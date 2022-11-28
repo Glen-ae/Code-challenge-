@@ -2,9 +2,12 @@
 
 //For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
+
+//PROMPT USER
  let speed = prompt("Input speed of a car(km/hr): ", "");
 if (speed !== null && speed >= 0)
 {
+    //CONDITIONAL STATEMENTS
     let driverLicenseInfo;
     if(speed < 70)
     {
@@ -22,6 +25,7 @@ if (speed !== null && speed >= 0)
             driverLicenseInfo = `Demerit Points: ${demeritPoint}, LICENSE SUSPENDED!`
         }
     }
+    //ALERT STATEMENTS
     alert(driverLicenseInfo)
 }
 else

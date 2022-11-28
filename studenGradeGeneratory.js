@@ -2,9 +2,12 @@
 
 //A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
 
+
+//PROMPT USER
  let marks = prompt("Present your marks here", "");
 if(marks !== null && marks >= 0 && marks <= 100)
 {
+    //CONDITIONAL STATEMENTS
     function grades(marks)
     {
         let grade;
@@ -28,6 +31,7 @@ if(marks !== null && marks >= 0 && marks <= 100)
             grading = "E"
         }
         return grade
+        //ALERT STATEMENTS
     }
     alert(`Your grade is; ${grading(marks)}`);
 }
