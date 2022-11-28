@@ -4,7 +4,7 @@
 
 
 //PROMPT USER
- let marks = prompt("Present your marks here", "");
+let marks = prompt("Present your marks here", "");
 if(marks !== null && marks >= 0 && marks <= 100)
 {
     //CONDITIONAL STATEMENTS
