@@ -4,7 +4,7 @@
 
 
 //PROMPT USER
-let marks = prompt("Present your marks here", "");
+let marks = prompt("Enter your marks here", "");
 if(marks !== null && marks >= 0 && marks <= 100)
 {
     //CONDITIONAL STATEMENTS
@@ -15,23 +15,23 @@ if(marks !== null && marks >= 0 && marks <= 100)
         {
             grade = "A"
         }
-        else if (marks > 60)
+        else if (marks >= 60)
         {
             grade = "B"
         }
-        else if (marks > 49)
+        else if (marks >= 49)
         {
             grade = "C"
         }
-        else if (marks > 40)
+        else if (marks >= 40)
         {
             grade = "D"
         }
         else{
-            grading = "E"
+            grade = "E"
         }
         return grade
         //ALERT STATEMENTS
     }
-    alert(`Your grade is; ${grading(marks)}`);
+    alert(`Your Grade is; ${grading(marks)}`);
 }
